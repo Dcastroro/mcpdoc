@@ -488,7 +488,7 @@ test = [
 requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "markdownify", specifier = ">=1.1.0" },
-    { name = "mcp", extras = ["cli"], specifier = ">=1.4.1" },
+    { name = "mcp", extras = ["cli"], specifier = ">=1.4.1,<2.0.0" },
     { name = "pyyaml", specifier = ">=6.0.1" },
 ]
 
